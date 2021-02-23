@@ -1,0 +1,16 @@
+h2{
+    color:red;
+    text-align: center;
+    text-decoration: cornflowerblue underline wavy;
+    font-weight: 400;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    size:40px;
+    font-weight: ;
+    
+}
+p{
+    color:aqua;
+    background-color: cornflowerblue;
+    font-size: 20px;
+}

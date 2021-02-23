@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms.html</title>
+</head>
+
+<body>
+    <h2>Form Demo</h2>
+    file:///C:/abcd?username=anindita+&password=gfahdjw&numner=34&date=2021-02-02
+    <form action="/abcd">
+        <div>
+            <label for="username">username</label>
+            <input type="text" id="username" placeholder="username" name="username">
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" id="password" placeholder="password" name="password">
+        </div>
+        <div>
+            <label for="number">enter the number</label>
+            <input type="number" id="number" placeholder="enter the number" name="numner">
+        </div>
+        <div>
+            <label>
+                enter the number
+                <input type="date" id="date" name="date">
+            </label>
+        </div>
+        <button>submit</button>
+    </form>
+
+    <form action="https://www.google.com/search">
+        https://www.google.com/search?q=pizza
+        <input type="text" name="q">
+        <button>serch for google</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>search youtube</button>
+    </form>
+    <h2>mone Inputs</h2>
+    <form action="/agree">
+        <input type="checkbox" name="chkbox" id="agree">
+        <label for="agree">I am agree with everything</label>
+        <p>
+            <label for="xs">XS</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m" value="m">
+            <label for="l">L</label>
+            <input type="radio" name="size" id="l" value="l">
+        </p>
+        <p>
+            <label for=""></label>
+            <select name="" id=""></select>
+        </p>
+        <p>
+            <label for="range">Amount of cheese</label>
+            <input type="range" name="cheese_lavel" id="range" min="1" max="100">
+            <br>
+            <label for="story">Any special request</label>
+            <br>
+            <textarea id="story" name="story" rows="5" cols="20" placeholder="Type here Something"></textarea>
+        </p>
+        <button>submit</button>
+    </form>
+    <h1>Race Registration!</h1>
+    <form action="/abcd">
+        <p>
+            <label for="fst_name">First Name</label>
+            <input type="text" name="Firstname" id="fst_name" required>
+            <label for="last_name">Last Name</label>
+            <input type="text" name="lastName" id="last_name" required>
+        </p>
+        <p>
+        <h3>Select a race</h3>
+        <input type="radio" name="race" id="1strace" value="Full_Run_5K">
+        <label for="1strace">Full Run 5K</label>
+        <br>
+        <input type="radio" name="race" id="2ndrace" value="Half_Marathon">
+        <label for="2ndrace">Half Marathon</label>
+        <br>
+        <input type="radio" name="race" id="3rdrace" value="full_Marathon">
+        <label for="3rdrace">Full Marathon</label>
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password">password</label>
+            <input type="password" name="password" id="password">
+        </p>
+        <div>
+            <label for="Arg_group">select Age group</label>
+            <select name="Age_group" id="Age_group">
+                <option value="kids">uder 18</option>
+                <option value="young">18-30</option>
+                <option value="adult">30-50</option>
+                <option value="seniours">50+</option>
+            </select>
+        </div>
+        <div>
+            <button>Register</button>
+        </div>
+    </form>
+</body>
+</body>
+file:///C:/abcd?Firstname=abjhgjka&lastName=jjkhq&race=Half+Marathon&email=asf%40m&password=&Age+group=young
+
+</html>
